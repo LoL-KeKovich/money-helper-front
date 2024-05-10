@@ -1,0 +1,73 @@
+.wrapper {
+    background: url("../Main/app-background.jpg");
+    height: 100vh;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 10px;
+}
+.auth {
+    margin-top: 35px;
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    border-style: solid;
+    border-radius: 30px;
+    opacity: 90%;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+label {
+    display: inline-block;
+    width: 285px;
+    text-align: left;
+    font-weight: bold;
+}
+.input-wrapper input {
+    height: 40px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+.input-wrapper input:focus::placeholder{
+    color: blue;
+}
+.input-wrapper button {
+    margin-top: 10px;
+    color: white;
+    background: grey;
+    border-radius: 7px;
+    border: none;
+    height: 35px;
+    font-size: large;
+}
+.input-wrapper button:hover {
+    scale: 1.2;
+    cursor: pointer;
+    color:wheat;
+}
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.reset-link {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(21deg, #dd03e4, #5611ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+    text-decoration: none;
+}
+.reset-link:hover {
+    background: linear-gradient(90deg, #FF1818, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

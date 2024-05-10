@@ -1,0 +1,11 @@
+.main-wrapper {
+    background: url("../Main/app-background.jpg");
+    height: 100vh;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 10px;
+}
+.main {
+    margin-top: 35px;
+}
