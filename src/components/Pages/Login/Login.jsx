@@ -24,7 +24,7 @@ export default function Login() {
     }
 
     const postData = () => {
-        axios.post(`http://127.0.0.1:8000/auth/login`, {
+        axios.post(`/semibor/auth/login`, {
             email,
             password
         }).then((response) => {

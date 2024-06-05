@@ -28,7 +28,7 @@ export default function CreateProject() {
 
     const navigate = useNavigate();
     const postData = () => {
-        axios.post(`http://127.0.0.1:8000/projects`, {
+        axios.post(`/semibor/projects`, {
             author,
             needed_sum,
             description,

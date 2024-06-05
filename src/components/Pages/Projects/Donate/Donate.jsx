@@ -20,7 +20,7 @@ export default function Donate () {
     const params = useParams();
 
     const updateData = () => {
-        axios.put(`http://127.0.0.1:8000/projects/donate/` + params.id, {
+        axios.put(`/semibor/projects/donate/` + params.id, {
             current_sum
         }, {headers: {"Authorization" : `Bearer ${localStorage.getItem('token')}`}})
         navigate("/projects/all");
