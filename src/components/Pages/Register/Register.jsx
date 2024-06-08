@@ -40,9 +40,6 @@ export default function Register() {
             password,
             initials,
             role
-        }).then((response) => {
-            localStorage.setItem('token',response.data.access_token);
-            navigate("/projects");
         })
     }
 
