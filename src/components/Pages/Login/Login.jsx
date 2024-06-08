@@ -27,9 +27,6 @@ export default function Login() {
         axios.post(`/semibor/auth/login`, {
             email,
             password
-        }).then((response) => {
-            localStorage.setItem('token',response.data.access_token);
-            navigate("/projects");
         })
     }
 
