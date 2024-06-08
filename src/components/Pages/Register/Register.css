@@ -1,0 +1,55 @@
+.reg-wrapper {
+    background: url("../Main/app-background.jpg");
+    height: 100vh;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 10px;
+}
+.reg {
+    margin-top: 35px;
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    border-style: solid;
+    border-radius: 30px;
+    opacity: 90%;
+}
+.reg-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+label {
+    display: inline-block;
+    width: 285px;
+    text-align: left;
+    font-weight: bold;
+}
+.reg-input-wrapper input {
+    height: 40px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+.reg-input-wrapper input:focus::placeholder{
+    color: blue;
+}
+.reg-input-wrapper button {
+    margin-top: 10px;
+    color: white;
+    background: grey;
+    border-radius: 7px;
+    border: none;
+    height: 35px;
+    font-size: large;
+}
+.reg-input-wrapper button:hover {
+    scale: 1.2;
+    cursor: pointer;
+    color:wheat;
+}

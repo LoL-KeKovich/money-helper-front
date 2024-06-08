@@ -35,7 +35,7 @@ export default function Login() {
 
     return(
         <>
-            <div class='wrapper'>
+            <div className='wrapper'>
                 <div className='auth'>
                     <h1>Авторизуйтесь</h1>
                     <div className='input-wrapper'>
