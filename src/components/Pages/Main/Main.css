@@ -9,3 +9,22 @@
 .main {
     margin-top: 35px;
 }
+.main-text {
+    margin-top: 35px;
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    border-style: solid;
+    border-radius: 30px;
+    opacity: 90%;
+}
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.main-text p {
+    font-family: 'Book Antiqua', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 1.7;
+}
