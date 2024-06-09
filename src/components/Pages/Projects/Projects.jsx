@@ -47,7 +47,7 @@ export default function Projects() {
                                             </div>
                                             <div className='project-status'><p>Статус сбора средств: {current_status}</p></div>
                                             <div className='project-button'>
-                                                <button>Редактировать проект</button>
+                                                <Link to={"/projects/edit/" + data.id} className='project_link_edit'>Редактировать</Link>
                                             </div>
                                         </div>
                                     </div>

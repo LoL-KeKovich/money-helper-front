@@ -42,6 +42,7 @@ export default function Header() {
                     <Route path="/projetcs/edit" element={<Edit/>}/>
                     <Route path="/projects/donate/:id" element={<Donate/>}/>
                     <Route path="/register" element={<Register/>}/>
+                    <Route path="/projects/edit/:id" element={<Edit/>}/>
                 </Routes>
             </div>
         </header>

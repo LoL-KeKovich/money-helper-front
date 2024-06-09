@@ -13,7 +13,7 @@ export default function DonateProjects() {
         if(localStorage.getItem('token') == null) {
             navigateFromDonate("/login");
         } else {
-            axios.get(`/semibor/projects`, {headers: {"Authorization" : `Bearer ${localStorage.getItem('token')}`}})
+            axios.get(`/semibor/projects/all`, {headers: {"Authorization" : `Bearer ${localStorage.getItem('token')}`}})
                 .then((response) => {
                     setProjectData(response.data);
                 })
